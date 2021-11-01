@@ -1,0 +1,367 @@
+@use 'sass/forward' as *;
+
+// estilos del carrusel
+// @import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+// fuentes
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+  font-family: Montserrat;
+  position: relative;
+  color: $gris;
+}
+b {
+  color: $azul;
+}
+i {
+  color: $calido;
+  font-size: 1.5em;
+}
+p {
+  padding: 0.8em 0;
+}
+li {
+  padding-bottom: 0.8em;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Source Serif Pro', serif;
+  color: $calido;
+}
+h3 {
+  font-size: clamp(1.6em, 6vw, 3em);
+}
+.minmax {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(max-content, 1fr));
+}
+
+.conte {
+  max-width: 1600px;
+  margin: 0 auto;
+  @media screen and (max-width: 1600px) {
+    padding: 0 10vw;
+  }
+}
+
+#cover {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  z-index: 100;
+  position: relative;
+  @include cel {
+    flex-wrap: wrap;
+  }
+  img,
+  .bandejaFlex {
+    flex: 0 1 50%;
+    @include cel {
+      flex: 0 0 100%;
+    }
+  }
+  img {
+    object-fit: cover;
+    width: 50%;
+    height: auto;
+  }
+  .bandejaFlex {
+    @include cel {
+      margin: 3em 0;
+    }
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    div {
+      width: 60%;
+      display: flex;
+      flex-wrap: wrap;
+      p {
+        margin: 2em 0;
+        flex: 1 0 100%;
+      }
+    }
+  }
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 30vh;
+  margin-top: 5em;
+  background-color: $grisClaro;
+  li {
+    list-style: none;
+  }
+  .logo,
+  .ask {
+    display: inherit;
+    flex: 1;
+    @include cel {
+      flex: 1 1 100%;
+      height: 300px;
+      background-color: $grisClaro;
+    }
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    .bandeja {
+      img {
+        width: 50%;
+        max-width: 200px;
+        height: auto;
+      }
+      p {
+        padding: 0.5em 0;
+      }
+      .social {
+        display: flex;
+      }
+      width: 60%;
+    }
+  }
+  .ask {
+    background-color: $azul;
+    color: $grisClaro;
+    .bandeja {
+      width: 60%;
+      display: inherit;
+      text-align: right;
+      div {
+        padding: 1em;
+        flex: 1 0 60%;
+      }
+    }
+    h2 {
+      color: $grisClaro;
+    }
+    .whats {
+      flex: 1 1 40%;
+      display: flex;
+    }
+    .whats a {
+      font-size: 4em;
+      color: $grisClaro;
+      &:hover {
+        color: $gris;
+      }
+    }
+  }
+}
+#index {
+  .conte {
+    columns: 2;
+    @include cel {
+      columns: unset;
+    }
+  }
+}
+#mapa {
+  height: 40vh;
+  width: 50%;
+  @include cel {
+    width: 100%;
+  }
+}
+
+#nuevaNormalidad {
+  @include divMitad($cover: false);
+}
+#cover {
+  @include divMitad;
+}
+
+.onu {
+  @include modelo('/ima/institulo-lizardi-naciones-unidas.jpg');
+}
+.raices {
+  @include modelo('/ima/nuestras-raices.jpg');
+}
+.vision {
+  @include modelo('/ima/institulo-lizardi-maker-home.jpg');
+}
+.arte {
+  @include modelo('/ima/institulo-lizardi-arte-home.jpg');
+}
+.cuerpo {
+  @include modelo('/ima/institulo-lizardi-deportes-home.jpg');
+}
+.ecologia {
+  @include modelo('/ima/institulo-lizardi-ecologia-home.jpg');
+}
+
+#blog {
+  margin-top: 5em;
+}
+.bandejaBlog {
+  display: flex;
+  @include cel {
+    flex-wrap: wrap;
+  }
+
+  gap: 1em;
+}
+.entradaHome {
+  background-color: $azul;
+  h3 {
+    font-weight: bold;
+    margin: 1rem;
+    text-align: left;
+  }
+  img{
+    width: 100%;
+    max-height: 20vw;
+    @include cel{
+      max-height: 50vw;
+    }
+    object-fit: cover;
+  }
+  p {
+    padding: 0;
+    margin: 1rem;
+    color: #fff;
+  }
+}
+
+.grado {
+  display: flex;
+  flex-wrap: wrap;
+  img {
+    flex: 1;
+    width: 50%;
+    object-fit: cover;
+
+    @include cel {
+      width: auto;
+    }
+  }
+  .bandeja {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+    div {
+      width: 70%;
+    }
+    flex: 1;
+    @include cel {
+      padding: 3em 1em;
+      div {
+        width: auto;
+      }
+    }
+  }
+
+  &:nth-of-type(2n + 0) {
+    img {
+      order: 2;
+    }
+    .bandeja {
+      order: 1;
+    }
+    @include cel {
+      g {
+        order: 1;
+      }
+      .bandeja {
+        order: 2;
+      }
+    }
+  }
+}
+
+#modeloConte {
+  background-color: $grisClaro;
+  padding: clamp(3em, 6vw, 9em);
+  p {
+    padding: 0em;
+    margin-bottom: 0.8em;
+  }
+}
+
+#excelencia {
+  .conte {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @include cel {
+      grid-template-columns: 1fr;
+    }
+  }
+  #bloqueAzul {
+    background-color: $azul;
+    color: #fff;
+    b {
+      color: #fff;
+    }
+  }
+  #bloqueGris {
+    background-color: $grisClaro;
+    img {
+      order: 2;
+      @include cel {
+        order: initial;
+      }
+    }
+  }
+  #bloqueGris,
+  #bloqueAzul {
+    display: flex;
+    flex-wrap: wrap;
+    img {
+      flex: 1 1 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .bandeja {
+      flex: 1 1 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 3em 0;
+      div {
+        width: 70%;
+      }
+    }
+  }
+}
+
+#calendario {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 3em 1em;
+  div {
+    padding: 2em;
+  }
+  img {
+    max-width: 10em;
+    margin-right: 3em;
+    @include cel {
+      margin-right: 0;
+    }
+  }
+}
+
+#post {
+  .conte {
+    p {
+      display: flex;
+      padding: 0 6vw;
+      @include cel{
+        padding:initial;
+        flex-wrap: wrap;
+      }
+      
+      img {
+        min-width: 0;
+        flex: 1 1 auto;
+        padding: 0.5em;
+      }
+    }
+  }
+}

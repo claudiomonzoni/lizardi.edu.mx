@@ -1,0 +1,64 @@
+{
+  "name": "eleventy-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "run-s start:remove start:watch",
+    "start:remove": "node onStart.js",
+    "start:watch": "run-p watch:eleventy watch:parcel bs:start",
+    "watch:eleventy": "npx @11ty/eleventy --watch",
+    "watch:parcel": "run-p watch:css watch:js watch:images",
+    "watch:css": "parcel watch src/style.scss",
+    "watch:js": "parcel watch src/js/app.js",
+    "watch:images": "parcel watch src/ima/*",
+    "build": "run-s clean prod:parcel hash prod:eleventy",
+    "svg": "svg-sprite-generate -d src/icons -o src/_includes/partials/sprite.svg",
+    "prod:eleventy": "npx @11ty/eleventy",
+    "prod:parcel": "run-p build:css build:js build:images",
+    "build:css": "parcel build src/style.scss",
+    "build:js": "parcel build src/js/app.js",
+    "build:images": "parcel build src/ima/*",
+    "bs:start": "browser-sync start --config bs-config.js",
+    "clean": "rm -rf dist",
+    "hash": "node onBuild.js"
+  },
+  "customDistStructure": {
+    "config": {
+      ".js": "js",
+      ".js.map": "js",
+      "ima": [
+        ".jpg",
+        ".png",
+        ".svg"
+      ],
+      ".css": "/",
+      ".css.map": "/"
+    },
+    "options": {
+      "development": true
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-navigation": "^0.2.0",
+    "browser-sync": "^2.26.14",
+    "md5": "^2.3.0",
+    "node-fetch": "^2.6.1",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-custom-dist-structure": "^1.1.18",
+    "parcel-plugin-imagemin": "^4.0.2",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.7",
+    "stylelint": "^13.10.0",
+    "stylelint-prettier": "^1.1.2",
+    "svg-sprite-generator": "^0.0.7"
+  },
+  "dependencies": {
+    "leaflet": "^1.7.1"
+  }
+}

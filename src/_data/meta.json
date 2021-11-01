@@ -1,0 +1,12 @@
+{
+    "titulo": "Instituto Lizardi",
+    "url": "https://lizardi.netlify.app/",
+    "descripcion": "Mas de 30 generaciones egresadas de preparatoria, secundaria, primaria y kinder, nos consolidad como la mejor institución de estudios en Zihuatanejo",
+    "author": {
+      "name": "Claudio Monzoni",
+      "email": "claudiomonzoni@hotmail.com"
+    },
+    "img": "og-image.jpg",
+    "githubUrl": "https://github.com/mbarker84/eleventy-parcel"
+  }
+  

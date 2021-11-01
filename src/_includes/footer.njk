@@ -1,0 +1,16 @@
+<div id="prePie">
+    <img src="/ima/instituto-lizarrdi-logo-svg.svg" alt="Instituto Lizardi">
+</div>
+<section id="footer">
+    <div class="conte">
+          <!-- {{ collections.all | eleventyNavigation("Grados") | eleventyNavigationToHtml | safe }} -->
+          
+        <ul>
+            {% for pagina in collections.paginas %}
+            <li>
+                <a href="{{ pagina.url }}">{{ pagina.data.tituloPaginas }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+       <p id="derechos"> Todos los derechos reservados <span>2021</span></p>
+    </section>

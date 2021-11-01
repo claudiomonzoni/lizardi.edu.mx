@@ -1,0 +1,389 @@
+@use 'mediaQ' as *;
+@use 'color' as *;
+@use 'anima' as *;
+// Boton toogle
+.menu-toggle {
+  position: fixed;
+
+  display: none;
+  @include cel {
+    display: block;
+    z-index: 99000;
+  }
+  right: 4vh;
+  top: 4.6vh;
+  z-index: 520;
+  width: 30px;
+  height: 22px;
+  background: transparent;
+  border-top: 4px solid;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 4px solid;
+  color: $gris;
+  font-size: 0;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+.menu-toggle:before,
+.menu-toggle:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: currentColor;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  transition: -webkit-transform 0.25s ease-in-out;
+  -o-transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+}
+
+button.is-active {
+  border-color: transparent;
+  border-left: none;
+}
+button.is-active:before {
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  -ms-transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+button.is-active:after {
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+  -ms-transform: translate(-50%, -50%) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  vertical-align: middle;
+}
+
+// menu de navegación
+nav {
+  background-color: $grisClaro;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  .logo {
+    padding: 1em;
+    max-width: 200px;
+    @include cel {
+      width: 240px;
+      margin-top: 0em;
+    }
+  }
+  // ultimo ul aplicar esta regla
+  ul + ul {
+    padding: 0 1em;
+  }
+  li  {
+    position: relative;
+    ul{
+      background-color: $azul;
+      display: none;
+      position: fixed;
+      padding: 1em;
+      li{
+        padding: 0.5em 1em ;
+      }
+      a{
+        color: #fff;
+        &:hover{
+          color: $calido;
+        }
+      }
+
+    }
+    &:hover ul{
+      display: block;
+    }
+
+  }
+  @include hd {
+    ul:nth-child(3n) {
+      flex: 1;
+      justify-content: space-evenly;
+      padding: 0 20%;
+    }
+  }
+  ul {
+    display: flex;
+    li {
+      padding: 0 0.5em;
+    }
+  }
+
+  @include cel {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 85px;
+    .logo {
+      align-self: flex-start;
+    }
+    ul:nth-child(3n) {
+      li {
+        padding: 1.5em 0;
+        position: relative;
+        ul{
+          background-color: $azul;
+          display: none;
+          position: fixed;
+          padding: 1em;
+          li{
+            padding: 0.5em 1em ;
+          }
+          a{
+            color: #fff;
+            &:hover{
+              color: $calido;
+            }
+          }
+    
+        }
+        &:hover ul{
+          display: block;
+        }
+      }
+    }
+
+    ul:nth-child(2n) {
+      display: flex;
+      justify-content: center;
+    }
+
+    ul {
+      flex: 1 0 100%;
+      visibility: hidden;
+      display: none;
+      padding: 2em;
+    }
+  }
+}
+
+.active{
+  font-weight: bold;
+}
+.social {
+  a {
+    font-size: 1.5em;
+    margin-right: 1em;
+    color: $azul;
+    @include cel {
+      font-size: 2.5em;
+    }
+
+    &:hover {
+      @extend .anima;
+      color: $gris;
+    }
+  }
+}
+.centrarBtn {
+  text-align: center;
+  margin: 5em 0;
+}
+.btn {
+  border: none;
+  background-color: $calido;
+  color: #fff;
+  padding: 0.8em 1.5em;
+  border-radius: 4em;
+  display: inline-block;
+  &:hover {
+    @extend .anima;
+    background-color: $azul;
+    border: none;
+    color: #fff;
+  }
+}
+.btnInvertido {
+  @extend .btn;
+  border: solid 1px $grisClaro;
+  color: $grisClaro;
+  &:hover {
+    @extend .anima;
+    background-color: $gris;
+    border: none;
+    color: #fff;
+  }
+}
+// agregamos padding a todo lo que este debajo de nav
+
+nav + section {
+  padding-top: 92px;
+  @include cel {
+    padding-top: 85px;
+  }
+}
+#prePie {
+  text-align: center;
+  padding: 4em 0 2em;
+  img {
+    width: clamp(4em, 6vw, 6em);
+    height: auto;
+  }
+}
+#footer {
+  background-color: $azul;
+  padding: 5em 0 6em;
+  a,
+  p {
+    color: #fff;
+    text-align-last: center;
+  }
+  p {
+    font-size: 0.9em;
+  }
+  ul {
+    padding: 1em 0;
+    text-align: center;
+    li {
+      display: inline-block;
+      padding: 0.8em;
+    }
+  }
+}
+@mixin divMitad($cover: true) {
+  background: linear-gradient(90deg, rgb(255, 255, 255) 30%, $azulMuyClaro 30%);
+  display: flex;
+  @if $cover {
+    margin-bottom: 5em;
+  }
+  @include cel {
+    padding-bottom: 3em;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+  }
+
+  .bandeja,
+  img {
+    flex: 1 1 50%;
+    //width: 70%;
+    @include cel {
+      width: auto;
+    }
+    height: auto;
+    object-fit: cover;
+  }
+  .bandeja {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    @include cel {
+      order: 1;
+      margin-top: 2em;
+    }
+    div {
+      @if $cover {
+        display: flex;
+        width: 90%;
+      } @else {
+        display: block;
+        width: 60%;
+      }
+      h1 {
+        font-size: clamp(2em, 4vw, 6em);
+      }
+      img {
+        width: 30%;
+        height: auto;
+        margin: 1em;
+      }
+    }
+  }
+}
+
+@mixin modelo($image) {
+  // primer bloque
+
+  min-height: 40vh;
+  display: flex;
+
+  .bandeja {
+    display: inherit;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 clamp(2vw, 10vw, 20vw);
+    color: $azul;
+    background: url($image) no-repeat $azulMuyClaro;
+    background-size: 100%;
+    flex: 4;
+    @include cel {
+      background-size: cover;
+      padding: 3em;
+      h2 {
+        text-align: left !important;
+        padding: 0 !important;
+        flex: 1 0 100% !important;
+      }
+    }
+    h2 {
+      text-align: right;
+      flex: 1;
+      padding: 1em;
+    }
+    p {
+      flex: 2;
+    }
+  }
+
+  .tabique {
+    flex: 1;
+    background: linear-gradient(90deg, $grisClaro 30%, #fff 30%);
+  }
+
+  &:nth-of-type(2n + 0) {
+    .bandeja {
+      background: url($image) no-repeat $azul;
+      background-size: 100%;
+      color: #fff;
+      order: 2;
+      @include cel {
+        background-size: cover;
+      }
+    }
+    .tabique {
+      background: linear-gradient(90deg, #fff 70%, $grisClaro 70%);
+    }
+  }
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  .cien {
+    flex: 1 0 100%;
+  }
+}
+label {
+  flex: 1 0 50%;
+  @include cel {
+    flex: 1 0 100%;
+  }
+  padding: 0.8em;
+}
+input,
+select,
+textarea {
+  border: none;
+  background-color: $azul;
+  color: #fff;
+  padding: 1em;
+  width: 100%;
+  margin-top: 0.4em;
+}

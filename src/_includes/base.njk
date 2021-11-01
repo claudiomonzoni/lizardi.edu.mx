@@ -1,0 +1,49 @@
+{% if version.css | length == 0 %} {% set CssVersion = '' %} {% else %} {% set
+CssVersion = version.css %} {% endif %}
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>{{ meta.titulo }}</title>
+    <meta name="description" content="{{ meta.descripcion }}" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style{{ CssVersion }}.css" />
+  </head>
+
+  <body>
+    <div id="cuerpo">
+      {% include "menu.njk" %}
+      <!-- <h1>{{page.filePathStem }} hol</h1> -->
+      {% block content %}{% endblock %}
+    </div>
+
+
+
+    <!-- {% if page.url == '/contacto/' %}
+    <div id="mapa">Mapa</div>
+    {% endif %}
+     -->
+  {% include "footer.njk" %} 
+  </body>
+  <!-- aqui un comentario -->
+  <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+  ></script>
+
+  <!-- poner un if para solo cargar esto en contacto -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css"
+    integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+  {% if version.js | length == 0 %} {% set JsVersion = '' %} {% else %} {% set
+  JsVersion = version.js %} {% endif %}
+  <script   src="/js/app{{ JsVersion }}.js"></script>
+</html>

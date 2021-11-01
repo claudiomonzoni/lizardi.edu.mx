@@ -1,0 +1,35 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: 'src/ima/uploads'
+public_folder: '/ima/uploads'
+
+collections:
+  - name: 'blog' # Used in routes, e.g., /admin/collections/blog
+    label: 'Blog Instituto Lizardi' # Used in the UI
+    folder: 'src/post' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: 'Layout',
+          name: 'layout',
+          widget: 'hidden',
+          default: 'post.njk',
+        }
+      - { label: 'Encabezado', name: 'tituloPaginas', widget: 'string' }
+      - { label: 'Breve descripción', name: 'descripcion', widget: 'string' }
+      - { label: 'Imagen principal', name: 'imagenPrincipal', widget: 'image' }
+      - { label: 'Fecha', name: 'fecha', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+# collection:
+#   - name: "blog"
+#     label: "Blog"
+#     folder: "blog"
+#     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+#     field:
+#      - {label: "Layout", name: "Layout", widget: "hidden", default: "base.njk"}
+#      - {label: "Titulo", name: "titulo", widget: "string"}
+#      - {label: "Contenido", name: "contenido", widget: "markdown"}
+#      - {label: "Imagen principal", name: "imagenPrincipal", widget: "image"}

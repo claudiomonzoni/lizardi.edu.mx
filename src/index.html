@@ -1,0 +1,149 @@
+---
+titulo: Instito Lizardi
+layout: 'paginas.njk'
+---
+<section id="cover">
+    
+    <div class="bandeja">
+       <div>
+           <img src="/ima/instituto-lizarrdi-logo-svg.svg" alt="instituto Lizardi">
+      <h1>Más de 20 generaciones egresadas</h1>
+    </div>
+    </div>
+
+    <img src="/ima/graduacionLizardiCover.jpg" alt=" instituto Lizardi">
+
+</section>
+
+<section id="index">
+    <div class="conte">
+        <p>
+            <b>
+                El instituto Lizardi en una institución privada , bilingüe, con más de 40 años de experiencia académica de alto nivel.
+            </b>
+        </p>
+        <p>
+            Fundado en 1980 buscó siempre un sólido programa académico , bilingüe (inglés - español) promoviendo experiencias de aprendizaje significativo, que ayudan a los niños y jóvenes a desarrollar su potencial único en un ambiente estimulante y acogedor.
+        </p>
+        <p>
+            Ofrece los niveles de Preescolar, Primaria, Secundaria y Bachillerato. Es una comunidad de aprendizaje inclusiva , que celebra la diversidad. Nuestro colegio promueve los valores éticos y morales universales al adherirse a los derechos humanos fundamentales, lo que constituye la base de su espíritu plural .
+        </p>
+    </div>
+    <div class="centrarBtn">
+        <a href="/instituto-lizardi/" class="btn" ></i> Conoce el Instituto Lizardi</a>
+    </div>
+</section>
+
+<section id="nuevaNormalidad">
+    
+    <div class="bandeja">
+       <div>
+        <h2>Nueva normalidad</h2>
+        <p><b>Se implemetaron nuevos protocolos</b> de higiene en la institución para asegurar que nuestros alumnos, así como el personal, esten seguros ante riesgos de contagios</p>
+        <a class="btn" href="https://institutolizardi.edu.mx/protocolos.pdf" target="_blank"><i class="far fa-file-pdf"></i> Aprende acerca de los nuevos protocolos</a> 
+       </div>
+    </div>
+
+    <img src="ima/nuevaNormalidadLizardi.jpg" alt="nueva normalidad instituto Lizardi">
+
+</section>
+
+<section id="modelos">
+    <div class="modelo onu">
+<div class="bandeja">
+    <h2>
+        Modelo de las naciones unidas
+    </h2>
+    <p>
+        Participamos en Modelos de Naciones Unidas, nacionales y extranjeros, lo que ofrece a nuestros alumnos una amplia visión del acontecer mundial. Desarrolla su capacidad de análisis y oratoria, desarrolla su sentido crítico y en un ambiente de gran cordialidad con sus pares hacen entrañables amistades que marcan sus vidas en un mismo ideal: buscar un mundo mejor.
+    </p>
+</div>
+<div class="tabique"></div>
+    </div>
+    <div class="modelo raices">
+<div class="bandeja">
+    <h2>
+        Nuestras raíces
+    </h2>
+    <p>
+        Llevamos a cabo una Feria Guerrerense denominada Guerrero es una cajita, en la que recorremos la geografía, la cultura, la gastronomía, el arte y apoyados en la tecnología, mostramos a los visitantes, la grandiosidad de nuestro estado y así enseñamos a nuestros alumnos a amar y a cuidar esta bella tierra. 
+    </p>
+</div>
+<div class="tabique"></div>
+    </div>
+
+    <div class="modelo vision">
+        <div class="bandeja">
+            <h2>
+                Visión al futuro
+            </h2>
+            <p>
+                Contamos con aula Maker, con una impresora 3D, donde los alumnos aprenden a desarrollar sus habilidades y a través de la robótica se inician en este mundo maravilloso.
+            </p>
+        </div>
+        <div class="tabique"></div>
+            </div>
+    <div class="modelo arte">
+        <div class="bandeja">
+            <h2>
+                Educando a través del arte
+            </h2>
+            <p>
+                Tenemos talleres de Danza, Teatro, Música , Pintura, que complementan nuestro programa académico , garantizando una educación verdaderamente integral.
+            </p>
+        </div>
+        <div class="tabique"></div>
+            </div>
+
+            <div class="modelo cuerpo">
+                <div class="bandeja">
+                    <h2>
+                        Mente sana en cuerpo sano
+                    </h2>
+                    <p>
+                        En nuestras clases de educación física buscamos desarrollar cuerpos sanos , a través de enseñarles la importancia del ejercicio físico y de la alimentación saludable.
+                    </p>
+                </div>
+                <div class="tabique"></div>
+                    </div>
+
+                    <div class="modelo ecologia">
+                        <div class="bandeja">
+                            <h2>
+                                Responsabilidad ecológica y social
+                            </h2>
+                            <p>
+                                Fomentamos una cultura ecológica a través de nuestro grupo Los cuidadores del planeta , quienes hacen campañas de limpieza de playas, protección de las tortugas y ballenas , siembra de huertos, elaboración de composta, y protección a los animales en general.
+                            </p>
+                        </div>
+                        <div class="tabique"></div>
+                            </div>
+    
+</section>
+
+<section id="blog">
+    <div class="conte">
+        <h2>Blog</h2>
+    <p>Descubre un poco más de la vida estudiantil y sucesos de nuestra institución.</p>
+
+    <div class="bandejaBlog">
+        {% for blogPost in collections.post %}
+
+        
+        <div class="entradaHome">
+            <a href="{{ blogPost.url}}">
+                <img
+                src="{{ blogPost.data.imagenPrincipal}}"
+                alt="{{ blogPost.data.tituloPaginas }}"
+                />
+                <h3>{{ blogPost.data.tituloPaginas }}</h3>
+                <p>{{ blogPost.data.descripcion }}</p>
+            </a>
+        </div>
+
+{% endfor %}
+     
+    </div>
+    </div>
+
+</section>

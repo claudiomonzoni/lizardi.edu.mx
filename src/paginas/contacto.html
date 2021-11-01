@@ -1,0 +1,104 @@
+---
+tituloPaginas: 'Contacto'
+eleventyNavigation:
+  key: Contacto
+  order: 4
+---
+
+<section id="cover">
+  <div class="bandeja">
+    <div>
+      <h1>
+        Contáctanos <br />
+        Instituto Lizardi
+      </h1>
+    </div>
+  </div>
+
+  <img
+    src="/ima/pexels-katerina-holmes-5905489.jpg"
+    alt=" instituto Lizardi, Contacto"
+  />
+</section>
+
+<section id="grados">
+  <div class="conte">
+    <div class="grado">
+      <div id="mapa">Aqui mapa</div>
+      <div class="bandeja">
+        <div>
+          <h3>Nuestras instalaciones están ubicadas en:</h3>
+          <p>Calle Ares, Col. El Hujal, Zihuatanejo Gro. CP. 40880</p>
+        </div>
+      </div>
+    </div>
+    <div class="grado">
+      <img src="/ima/thumbnail_IMG_5597.jpg" alt="Contacto Instituto Lizardi" />
+      <div class="bandeja">
+        <div>
+          <h3>Contacto:</h3>
+          <p>
+            <!-- <li>Email: institutolizardi@gmail.com</li> -->
+            <li>
+              <!-- Teléfono dirección Primaria: 755 554 58 95 -->
+              Teléfono kinder: 75555.43088
+            </li>
+            <li>
+              <!-- Teléfono dirección Preparatoria: 755 554 57 05 -->
+              Conmutador: 75555.42820 / 75555.47325
+            </li>
+            <li>
+                          Atención WhatsApp: 755 130 9730 </p>
+                      </li>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="modeloConte">
+  <div class="conte">
+    <div class="bandeja">
+      <h2>Formulario de contacto.</h2>
+      <p>
+        Por medio de este formulario podrá hacernos llegar directamente
+        cualquier duda, comentario.
+      </p>
+    </div>
+
+    <form
+      name="contacto"
+      action="https://formspree.io/f/xknkpwqe"
+      method="POST"
+      data-netlify="true"
+    >
+      <label class="cien"
+        >Nombre completo: <br />
+        <input type="text" name="nombre"
+      /></label>
+
+      <label
+        >Email: <br />
+        <input type="email" name="email"
+      /></label>
+
+      <label
+        >teléfono: <br />
+        <input type="tel" name="telefono"
+      /></label>
+
+      <label
+        >Comentarios: <br />
+        <textarea name="comentarios" id="comentarios"></textarea>
+      </label>
+
+      <div class="cien">
+        <button type="submit" class="btn">Enviar</button>
+      </div>
+    </form>
+  </div>
+</section>
+<div class="centrarBtn">
+  <a href="/instituto-lizardi/" class="btn">Conoce al Instituto Lizardi</a>
+</div>

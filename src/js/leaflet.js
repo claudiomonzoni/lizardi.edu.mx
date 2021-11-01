@@ -1,0 +1,73 @@
+import L from 'leaflet'
+
+export class Mapa {
+  constructor() {
+    this.mapa = this.inicializarMapa()
+    this.markers = new L.LayerGroup()
+  }
+
+  inicializarMapa() {
+    // Inicializar y obtener la propiedad del mapa
+    const map = L.map('mapa').setView([17.65003, -101.533493], 16)
+    const enlaceMapa = '<a href="http://openstreetmap.org">OpenStreetMap</a>'
+    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; ' + enlaceMapa + ' Contributors',
+      maxZoom: 20,
+    }).addTo(map)
+
+    return map
+  }
+
+  obtenerDatos() {
+    const pines = {
+      resultados: [
+        {
+          latitude: '17.650030',
+          longitude: '-101.533493',
+          titulo: 'Instituto Lizardi',
+          calle: 'Calle Ares, Col. El Hujal, Zihuatanejo Gro. México.',
+        },
+      ],
+    }
+
+    this.mostrarPines(pines.resultados)
+  }
+
+  mostrarPines(datos) {
+    // limpio marker para mostrar otra busqueda
+    this.markers.clearLayers()
+
+    datos.forEach((dato) => {
+      //destructurig para obtener las prop del obj
+      const { latitude, longitude, titulo, calle } = dato
+
+      // crear un globo de info
+      const globo = L.popup().setContent(`
+  <h3>${titulo} </h3>
+  <p> Calle: ${calle}</p>
+  `)
+      // objeto de los markers
+      const elpin = L.icon({
+        iconUrl:
+          'https://www.equirentazihua.com/wp-content/themes/equirenta/img/mapapin.svg',
+        //shadowUrl: "leaf-shadow.png",
+
+        iconSize: [50, 69], // size of the icon
+        //shadowSize: [50, 64], // size of the shadow
+        iconAnchor: [35, 45], // point of the icon which will correspond to marker's location
+        //shadowAnchor: [4, 62], // the same for the shadow
+        popupAnchor: [-3, -76], // point from which the popup should open relative to the iconAnchor
+      })
+
+      //agregar el pin por obj
+      // corchete porque es array
+      const marker = new L.marker(
+        [parseFloat(latitude), parseFloat(longitude)],
+        { icon: elpin }
+      ).bindPopup(globo)
+      //agregamos cada pin al layer del constructor
+      this.markers.addLayer(marker)
+    })
+    this.markers.addTo(this.mapa)
+  }
+}

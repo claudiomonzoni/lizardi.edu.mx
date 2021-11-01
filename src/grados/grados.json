@@ -1,0 +1,6 @@
+{
+    "layout": "paginas.njk",
+    "permalink": "{{ tituloPaginas | slug }}/index.html",
+    "tags": "grados"
+  }
+  

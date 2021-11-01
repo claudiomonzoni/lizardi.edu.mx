@@ -1,0 +1,50 @@
+---
+tituloPaginas: 'Blog'
+eleventyNavigation:
+  key: Blog
+  order: 2
+---
+
+<!-- Aqui la logica del blog
+
+ {{ faker.json }} -->
+
+<section id="cover">
+  <div class="bandeja">
+    <div>
+      <h1>
+        Blog <br />
+        Instituto Lizardi
+      </h1>
+    </div>
+  </div>
+
+  <img src="/ima/pexels-zen-chung-5538618.jpg" alt=" instituto Lizardi Blog" />
+</section>
+<section id="grados">
+  <div class="conte">
+    {% for entrada in collections.post  %}
+
+    <div class="grado">
+      <img
+        src="{{ entrada.data.imagenPrincipal}}"
+        alt="{{ entrada.data.tituloPaginas }}"
+      />
+      <div class="bandeja">
+        <div>
+          <a href="{{ entrada.url }}">
+            <h2>{{ entrada.data.tituloPaginas }}</h2>
+          </a>
+
+          <p>{{ entrada.data.descripcion }}</p>
+        </div>
+      </div>
+    </div>
+
+    {% endfor %}
+
+    <div class="centrarBtn">
+      <a href="#" class="btn">Conoce al Instituto Lizardi</a>
+    </div>
+  </div>
+</section>
