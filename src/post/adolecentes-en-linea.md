@@ -1,5 +1,5 @@
 ---
-tituloPaginas: 'Adolecentes en línea.'
+tituloPaginas: 'Adolescentes en línea'
 descripcion: 'Se otorga el distintivo de Regreso Seguro a Clases (RSC), el cual la identifica como escuela segura y comprometida en el ámbito de su competencia para dar cumplimiento al servicio público educativo.'
 imagenPrincipal: '/ima/uploads/ebook.jpg'
 date: 2021-11-10
