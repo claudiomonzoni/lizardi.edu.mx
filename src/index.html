@@ -1,6 +1,9 @@
 ---
 titulo: Instito Lizardi
 layout: 'paginas.njk'
+pagination:
+    data: collections.post
+    size: 3
 ---
 <section id="cover">
     
@@ -127,17 +130,17 @@ layout: 'paginas.njk'
     <p>Descubre un poco más de la vida estudiantil y sucesos de nuestra institución.</p>
 
     <div class="bandejaBlog">
-        {% for blogPost in collections.post %}
+        {% for post in pagination.items  %}
 
         
         <div class="entradaHome">
-            <a href="{{ blogPost.url}}">
+            <a href="{{ post.url}}">
                 <img
-                src="{{ blogPost.data.imagenPrincipal}}"
-                alt="{{ blogPost.data.tituloPaginas }}"
+                src="{{ post.data.imagenPrincipal}}"
+                alt="{{ post.data.tituloPaginas }}"
                 />
-                <h3>{{ blogPost.data.tituloPaginas }}</h3>
-                <p>{{ blogPost.data.descripcion }}</p>
+                <h3>{{ post.data.tituloPaginas }}</h3>
+                <p>{{ post.data.descripcion }}</p>
             </a>
         </div>
 
