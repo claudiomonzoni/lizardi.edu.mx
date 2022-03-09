@@ -2,7 +2,7 @@
 tituloPaginas: 'Instituto lizardi, cerficada como Escuela Segura'
 descripcion: 'Se otorga el distintivo de Regreso Seguro a Clases (RSC), el cual la identifica como escuela segura y comprometida en el ámbito de su competencia para dar cumplimiento al servicio público educativo.'
 imagenPrincipal: '/ima/uploads/escuela-segura.jpg'
-date: 2021-11-10
+date: 2021-09-10
 ---
 
 ## Instituto lizardi, cerficada como Escuela Segura.

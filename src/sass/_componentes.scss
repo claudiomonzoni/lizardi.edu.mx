@@ -81,6 +81,7 @@ nav {
   .logo {
     padding: 1em;
     max-width: 200px;
+    width: 240px;
     @include cel {
       width: 240px;
       margin-top: 0em;

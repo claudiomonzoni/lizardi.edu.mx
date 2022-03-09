@@ -3,7 +3,7 @@ tituloPaginas: 'Protocolos de seguridad sanitarios'
 descripcion: 'Felicidades al Instituto Lizardi por haber concluido exitosamente el proceso de evaluación del Protocolo de Seguridad
 Sanitaria en el entorno laboral'
 imagenPrincipal: '/ima/uploads/lizardi-post-protocolos.jpg'
-date: 2021-21-09
+date: 2021-09-09
 ---
 
 Felicidades al Instituto Lizardi por haber concluido exitosamente el proceso de evaluación del Protocolo de Seguridad

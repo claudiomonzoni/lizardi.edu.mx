@@ -2,7 +2,7 @@
 tituloPaginas: 'Día de muertos y Halloween'
 descripcion: 'Estas son algunas de las actividades y celebraciones que año tras año realizamos en Intituto Lizardi.'
 imagenPrincipal: '/ima/uploads/halloween-a.jpg'
-date: 2021-05-11
+date: 2021-10-11
 ---
 
 ## Celebraciones tradicionales que nos dan identidad.
