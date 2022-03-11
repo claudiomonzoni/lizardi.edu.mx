@@ -175,6 +175,11 @@ nav {
   }
 }
 
+#langBtn{
+  border-right: solid 1px $azul;
+  border-left: solid 1px $azul;
+padding: 0 2rem;
+}
 .active{
   font-weight: bold;
 }
