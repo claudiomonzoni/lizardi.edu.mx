@@ -1,20 +1,20 @@
 ---
-tituloPaginas: 'Instituto lizardi, cerficada como Escuela Segura'
-descripcion: 'Se otorga el distintivo de Regreso Seguro a Clases (RSC), el cual la identifica como escuela segura y comprometida en el ámbito de su competencia para dar cumplimiento al servicio público educativo.'
+tituloPaginas: 'Lizardi Institute, certified as a Safe School'
+descripcion: 'The Safe Return to Classes (RSC) badge is awarded, which identifies it as a safe and committed school within the scope of its competence to comply with the educational public service.'
 imagenPrincipal: '/ima/uploads/escuela-segura.jpg'
 date: 2021-09-10
 ---
 
-## Instituto lizardi, cerficada como Escuela Segura.
 
-Como parte de las acciones definida en el acuerdo número 23/08/21 publicado en el DOF 20/08/2021 "por el que se establecen diversas disposiciones para el desarrollo del ciclo escolar 21-22 y reanudar actividades del servicio público educativo de forma presencial, responsable y ordenada, y dar cumplimiento a los planes y programas de estudio de educación básica (preescolar, primaria y secundaria), normal y demás para la formación de maestros de educación básica aplicables a toda la república, al igual que aquellos planes y programas de estudio de los tipos medio superior y superior que la secretaría de educación pública haya emitido, así como aquellos particulares con autorización o reconocimiento de validez oficial de estudios, en beneficio de las y los educandos"; le informamos los siguiente:
+## Lizardi Institute, certified as a Safe School.
 
-
-Una vez revisada la información documental que acompaña al proceso de verificación del reporte de personal que recibió la vacuna contra el virus SARS-COV2 para la prevención de la COVID-19, se determina que su centro de trabajo es factible de iniciar con las operaciones presenciales, respetando en todo momento las indicaciones emitidas en la normativa aplicable enunciadas en este documento.
+As part of the actions defined in the agreement number 08/23/21 published in the DOF 08/20/2021 "by which various provisions are established for the development of the 21-22 school year and to resume activities of the educational public service in a face-to-face, responsible and orderly, and comply with the plans and study programs of basic education (preschool, primary and secondary), normal and others for the training of basic education teachers applicable to the entire republic, as well as those plans and study programs, as well as those individuals with authorization or recognition of official validity of studies, for the benefit of the students"; we inform you of the following:
 
 
-Por lo anterior, se otorga el distintivo de Regreso Seguro a Clases (RSC), el cual la identifica como escuela segura y comprometida en el ámbito de su competencia para dar cumplimiento al servicio público educativo.
+Once the documentary information that accompanies the process of verifying the report of personnel who received the vaccine against the SARS-COV2 virus for the prevention of COVID-19 has been reviewed, it is determined that your workplace is feasible to start with face-to-face operations. , respecting at all times the indications issued in the applicable regulations set forth in this document.
 
 
-![lizardi escuela segura](/ima/uploads/normatividad.jpg)
+Due to the above, the Safe Return to Classes (RSC) badge is awarded, which identifies it as a safe and committed school in the area of ​​its competence to comply with the educational public service.
 
+
+![lizardi safe school](/ima/uploads/normativity.jpg)

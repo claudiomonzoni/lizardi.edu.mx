@@ -1,25 +1,21 @@
 ---
-tituloPaginas: 'Adolescentes en línea'
-descripcion: 'Se otorga el distintivo de Regreso Seguro a Clases (RSC), el cual la identifica como escuela segura y comprometida en el ámbito de su competencia para dar cumplimiento al servicio público educativo.'
+tituloPaginas: 'Teenager on-line'
+descripcion: 'The Safe Return to Classes (RSC) badge is awarded, which identifies it as a safe and committed school within the scope of its competence to comply with the educational public service.'
 imagenPrincipal: '/ima/uploads/ebook.jpg'
 date: 2021-10-10
 ---
 
-## Ante la pandemia por COVID-19 nuestras vidas cambiaron para siempre.
+
+## In the face of the COVID-19 pandemic our lives changed forever.
 
 <br>
 
-Ahora los niños, niñas y adolescentes pasan más tiempo en casa conectados a dispositivos digitales navegando en internet, un medio que les brinda grandes oportunidades para encontrar información, continuar con su educación y estar en contacto con sus amigos y familiares.
+Now children and adolescents spend more time at home connected to digital devices surfing the Internet, a medium that offers them great opportunities to find information, continue their education and be in contact with their friends and family.
 
 <br>
 
-Como madres, padres y tutores queremos que nuestros hijos siempre estén seguros, pero ante esta nueva realidad podemos no saber cómo protegerlos de la mejor manera mientras están en el ciberespacio. Nos pueden surgir muchas preguntas y dudas de cómo actuar en casos de ciberacoso o cómo asegurar una navegación segura mientras nuestros hijos hacen tareas o están  en las redes sociales.
+As mothers, fathers and guardians we want our children to always be safe, but in the face of this new reality we cannot know how to best protect them while they are in cyberspace. We may have many questions and doubts about how to act in cases of cyberbullying or how to ensure safe browsing while our children do homework or are on social networks.
 
 <br>
 
-Por eso ponemos a tu disposición este PEF con tips para que tus hijos naveguen seguros por internet.
-
-
-
-[Descargar E Book en línea](/ima/uploads/ebook.pdf)
-
+That is why we put at your disposal this PEF with tips so that your children navigate the internet safely.

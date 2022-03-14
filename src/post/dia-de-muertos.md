@@ -1,38 +1,36 @@
 ---
-tituloPaginas: 'Día de muertos y Halloween'
-descripcion: 'Estas son algunas de las actividades y celebraciones que año tras año realizamos en Intituto Lizardi.'
+tituloPaginas: 'Day of the Dead and Halloween'
+descripcion: 'These are some of the activities and celebrations that year after year we carry out at Intituto Lizardi.'
 imagenPrincipal: '/ima/uploads/halloween-a.jpg'
 date: 2021-10-11
 ---
 
-## Celebraciones tradicionales que nos dan identidad.
+
+## Traditional celebrations that give us identity.
 
 <br>
 
 
 
-<a href="/ima/uploads/halloween.pdf" class="btn"> Descargar presentación realizada por los alumnos de 3er semestre de CCH </a>
+<a href="/ima/uploads/halloween.pdf" class="btn"> Download presentation made by CCH 3rd semester students </a>
 
 <br>
 
-Estas son algunas de las actividades y celebraciones que año tras año realizamos en Instituto Lizardi, desde actividades como concurso de disfraces, altares y festivales.
+These are some of the activities and celebrations that we carry out year after year at Instituto Lizardi, from activities such as costume contests, altars and festivals.
 
 <br>
 
-![Día de muertos y halloween Instituto Lizardi](/ima/uploads/halloween-a.jpg)
+![Day of the Dead and Halloween Instituto Lizardi](/ima/uploads/halloween-a.jpg)
 
 <br>
 
-![Día de muertos y halloween Instituto Lizardi](/ima/uploads/halloween-c.jpg)
+![Day of the Dead and Halloween Instituto Lizardi](/ima/uploads/halloween-c.jpg)
 
 <br>
 
-Debido a la pendencia y el distanciamiento social se debió modificar las celebraciones y la solución fue hacer caravanas, decorando nuestros autos y participar en actividades como rallies.
+Due to the fight and social distancing, the celebrations had to be modified and the solution was to make caravans, decorate our cars and participate in activities such as rallies.
 <br>
 
-![Día de muertos y halloween Instituto Lizardi](/ima/uploads/halloween-b.jpg)
-![Día de muertos y halloween Instituto Lizardi](/ima/uploads/halloween-d.jpg)
-![Día de muertos y halloween Instituto Lizardi](/ima/uploads/halloween-e.jpg)
-
-
-
+![Day of the Dead and Halloween Instituto Lizardi](/ima/uploads/halloween-b.jpg)
+![Day of the Dead and Halloween Instituto Lizardi](/ima/uploads/halloween-d.jpg)
+![Day of the Dead and Halloween Instituto Lizardi](/ima/uploads/halloween-e.jpg)

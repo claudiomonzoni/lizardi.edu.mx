@@ -1,44 +1,38 @@
 ---
-tituloPaginas: 'Campeonato Nacional Gimnasia Femenil'
-descripcion: 'Gala Razo, alumna de primero de CCH, teniendo un nivel 8 compite en Categoría 2004.'
+tituloPaginas: "National Women's Gymnastics Championship"
+descripcion: 'Gala Razo, first year student of CCH, having a level 8 competes in Category 2004.'
 imagenPrincipal: '/ima/uploads/gimnasia-p.jpg'
 date: 2021-12-14
 ---
 
 
-<br>
-
-<!-- 
-aqui un boton
-<a href="/ima/uploads/halloween.pdf" class="btn"> Descargar presentación realizada por los alumnos de 3er semestre de CCH </a> -->
 
 <br>
+<br>
 
-![3er Lugar por equipos a nivel Nacional](/ima/uploads/gimnasia2.jpg)
+![3rd Place by teams at the National level](/ima/uploads/gimnasia2.jpg)
 
 <br>
 
 
-Campeonato Nacional Gimnasia Femenil GAF 2021, celebrado en Guadalajara, Jalisco del 10 al 15 de octubre, en donde compiten niñas de todos los estados de la República Mexicana de nivel 7 al 10. 
-Gala Razo, alumna de primero de CCH, teniendo un nivel 8 compite en Categoría 2004. con dos compañeras una de Uruapan y otra de Morelia juntas obtienen el 3er Lugar por equipos a nivel Nacional.
+GAF National Women's Gymnastics Championship 2021, held in Guadalajara, Jalisco from October 10 to 15, where girls from all states of the Mexican Republic compete from level 7 to 10.
+Gala Razo, a first-year student from CCH, having a level 8, competes in the 2004 Category. Together with two classmates, one from Uruapan and the other from Morelia, they obtain the 3rd Place for teams at the National level.
 
 <br>
 
 <hr>
-Deporte: Gimnasia <br>
-Modalidad: Nivel 7 al 10.
+Sport: Gymnastics <br>
+Modality: Level 7 to 10.
 
 <br>
 <br>
 
-![3er Lugar por equipos a nivel Nacional](/ima/uploads/gimnasia.jpg)
+![3rd Place by teams at the National level](/ima/uploads/gimnasia.jpg)
 
 <br>
 
-### ¡MUCHAS FELICIDADES GALA RAZO, ORGULLO LIZARDI!
+### CONGRATULATIONS GALA RAZO, LIZARDI PRIDE!
 
 <br>
-
-
 
 
