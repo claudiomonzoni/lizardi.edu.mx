@@ -1,6 +1,6 @@
 {
     "layout": "post.njk",
-    "permalink": "/blog/{{ tituloPaginas | slug }}/index.html",
+    "permalink": "/en/blog/{{ tituloPaginas | slug }}/index.html",
     "tags": "post"
   }
   
