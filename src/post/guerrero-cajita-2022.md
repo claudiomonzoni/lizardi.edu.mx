@@ -16,7 +16,7 @@ Due to the fact that the capacity inside the school has been reduced by the COVI
 <br>
 
 
-Esperamos disfruten este extraordinario trabajo realizado por toda la comunidad Lizardi .
+We hope you enjoy the extraordinary work of our Lizardi community
 
 ![lizardi escuela segura](/ima/uploads/guerrero-cajita-2022-b.jpg)
 ![lizardi escuela segura](/ima/uploads/guerrero-cajita-2022-a.jpg)
