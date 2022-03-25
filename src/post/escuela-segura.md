@@ -1,29 +1,33 @@
 ---
-tituloPaginas: 'Protocolos de seguridad sanitarios'
-descripcion: 'Felicidades al Instituto Lizardi por haber concluido exitosamente el proceso de evaluación del Protocolo de Seguridad
-Sanitaria en el entorno laboral'
+tituloPaginas: 'Health safety protocols'
+descripcion: 'Congratulations to the Lizardi Institute for having successfully concluded the evaluation process of the Security Protocol Health in the work environment'
 imagenPrincipal: '/ima/uploads/lizardi-post-protocolos.jpg'
 date: 2021-09-09
 ---
 
-Felicidades al Instituto Lizardi por haber concluido exitosamente el proceso de evaluación del Protocolo de Seguridad
-Sanitaria en el entorno laboral, lo cual demuestra su compromiso por promover y mantener la salud
-de sus trabajadores.
+Congratulations to the Lizardi Institute for having successfully concluded the evaluation process of the Security Protocol Sanitary in the work environment, which demonstrates its commitment to promote and maintain health 
+.of their workers.
 
+<br>
 
-Le recordamos que lo manifestado en su autoevaluación podrá ser verificado por la Secretaria del
-Trabajo y Previsión Social.
+We remind you that what you stated in your self-assessment may be verified by the Secretary of the
+Work and Social Welfare.
 
+<br>
 
-En esta nueva normalidad es muy importante que todas las empresas y centros de trabajo se
-mantengan informados del Semáforo de Alerta Sanitaria semanal por regiones (estatal o municipal),
-que determinará el nivel de alerta sanitaria y definirá qué tipo de empresas y centros laborales están
-autorizados para llevar a cabo sus actividades.
-En el caso de que sea proveedor de alguna empresa esencial, recuerde que si existe en la región del
-centro laboral un nivel máximo de alerta sanitaria, solo podrá realizar las actividades relacionadas
-directamente con el sector esencial.
+In this new normal, it is very important that all companies and work centers
+keep informed of the weekly Health Alert Traffic Light by region (state or municipal),
+that will determine the level of health alert and define what type of companies and workplaces are
+authorized to carry out their activities.
+In the event that you are a supplier of an essential company, remember that if it exists in the region of the
+work center a maximum level of health alert, you will only be able to carry out the activities related
+directly with the essential sector.
 
-Ver documento oficial emitido por Instituto Mexicano del Seguro Social 
+<br>
+
+See official document issued by the Mexican Social Security Institute
+
+<br>
 
 [Descargar PDF](/ima/uploads/resultadoevaluacion.pdf)
 
