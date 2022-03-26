@@ -29,5 +29,5 @@ See official document issued by the Mexican Social Security Institute
 
 <br>
 
-[Descargar PDF](/ima/uploads/resultadoevaluacion.pdf)
+[Download PDF](/ima/uploads/resultadoevaluacion.pdf)
 
