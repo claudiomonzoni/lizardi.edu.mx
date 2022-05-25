@@ -13,7 +13,7 @@ date: 2022-05-24
 
 <br>
 
-We congratulate our CCH student Lilith Tapia Solano for having obtained the first place in relay in the Ixtapa Triathlon 2022
+We are very proud of our high school student, Lilith Tapia Solano who obtained first place in her participation in the Ixtapa 2022 Triathlon, in relay race.  Good for you, Lilith, you make us so proud!
 
 <br>
 
@@ -21,7 +21,7 @@ We congratulate our CCH student Lilith Tapia Solano for having obtained the firs
 
 <br>
 
-Julieta Rodríguez, the smallest of our competitors, won first place in her first participation in the 2022 Ixtapa AsTri Triathlon. You are a source of pride for Lizardi!
+Julieta Rodríguez, our youngest competitor obtained first place in her first participation in a  Triathlon.  We are so proud of you, Julieta!
 
 <br>
 
