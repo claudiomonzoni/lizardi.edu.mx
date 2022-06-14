@@ -1,6 +1,6 @@
 ---
-tituloPaginas: 'Guerrero es una cajita videos'
-descripcion: 'Mire los videos del evento anual "Guerrero es una cajita" que celebra nuestra identidad y cultura guerrerenses.'
+tituloPaginas: 'Guerrero es una cajita'
+descripcion: 'Videos del evento anual "Guerrero es una cajita" que celebra nuestra identidad y cultura guerrerenses.'
 imagenPrincipal: '/ima/uploads/portada-videos.jpg'
 date: 2022-04-05
 ---

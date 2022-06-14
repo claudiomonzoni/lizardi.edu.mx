@@ -5,7 +5,6 @@ imagenPrincipal: '/ima/uploads/logros.jpg'
 date: 2021-12-10
 ---
 
-## Reconocimiento UNAM como mejor alumna.
 
 <br>
 
@@ -19,7 +18,7 @@ aqui un boton
 
 <br>
 
-### Ibeth Lilith Tapia Solano obtuvo 3er lugar en los Nacionales CONADE 2021. <br>
+### Ibeth Lilith Tapia Solano obtuvo 3er lugar en los Nacionales CONADE 2021<br>
 <hr>
 Deporte: surf <br>
 Modalidad: tabla corta.

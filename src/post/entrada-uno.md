@@ -1,6 +1,6 @@
 ---
 tituloPaginas: 'Adaptando nuestra escuela a la nueva normalidad'
-descripcion: 'Con el objetivo de brindarle seguridad a toda la comunidad escolar y en cumplimiento de las normas de higiene sugeridas por las autoridades sanitarias, es que se están llevando a cabo modificaciones a nuestra escuela'
+descripcion: 'Con el objetivo de brindarle seguridad a toda la comunidad escolar y en cumplimiento de las normas de higiene sugeridas por las autoridades sanitarias, es que se están llevando a cabo modificaciones a nuestra escuela.'
 imagenPrincipal: '/ima/uploads/institulo-lizardi-nueva-normalidad.jpg'
 date: 2021-09-08
 ---

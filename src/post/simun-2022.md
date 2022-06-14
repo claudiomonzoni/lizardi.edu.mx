@@ -1,11 +1,11 @@
 ---
-tituloPaginas: 'Simon 2022'
+tituloPaginas: 'Simun 2022'
 descripcion: 'Modelo de Naciones Unidas del Sistema Incorporado de la UNAM. '
 imagenPrincipal: '/ima/uploads/simun2022/cover-simun.jpg'
 date: 2022-03-24
 ---
 
-## Modelo de Naciones Unidas del Sistema Incorporado de la UNAM. 
+## Modelo de Naciones Unidas del Sistema Incorporado de la UNAM
 
 <br>
 

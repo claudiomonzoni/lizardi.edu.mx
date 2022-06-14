@@ -5,7 +5,7 @@ imagenPrincipal: '/ima/uploads/halloween-a.jpg'
 date: 2021-10-11
 ---
 
-## Celebraciones tradicionales que nos dan identidad.
+## Celebraciones tradicionales que nos dan identidad
 
 <br>
 

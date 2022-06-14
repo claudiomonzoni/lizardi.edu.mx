@@ -5,7 +5,7 @@ imagenPrincipal: '/ima/uploads/escuela-segura.jpg'
 date: 2021-09-10
 ---
 
-## Instituto lizardi, cerficada como Escuela Segura.
+## Instituto lizardi, cerficada como Escuela Segura
 
 Como parte de las acciones definida en el acuerdo número 23/08/21 publicado en el DOF 20/08/2021 "por el que se establecen diversas disposiciones para el desarrollo del ciclo escolar 21-22 y reanudar actividades del servicio público educativo de forma presencial, responsable y ordenada, y dar cumplimiento a los planes y programas de estudio de educación básica (preescolar, primaria y secundaria), normal y demás para la formación de maestros de educación básica aplicables a toda la república, al igual que aquellos planes y programas de estudio de los tipos medio superior y superior que la secretaría de educación pública haya emitido, así como aquellos particulares con autorización o reconocimiento de validez oficial de estudios, en beneficio de las y los educandos"; le informamos los siguiente:
 

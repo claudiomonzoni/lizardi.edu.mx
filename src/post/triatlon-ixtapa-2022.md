@@ -1,6 +1,6 @@
 ---
-tituloPaginas: 'Triatlon Ixtapa 2022'
-descripcion: 'Participación de alumnos del instituto Lizardi en el triatlon de Ixtapa 2022'
+tituloPaginas: 'Triatlón Ixtapa 2022'
+descripcion: 'Participación de alumnos del Instituto Lizardi en el triatlón de Ixtapa 2022'
 imagenPrincipal: '/ima/uploads/triatlon/portada.jpg'
 date: 2022-05-24
 ---
