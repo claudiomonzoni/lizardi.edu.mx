@@ -33,7 +33,7 @@ Modalidad: tabla corta.
 
 ### Muchas felicidades a los alumnos Marco Amable, Emiliano Meza y Héctor Galeano de 2º de secundaria 
 <br>
-Por haber obtenido el segundo lugar en el campeonato de clubes de baloncesto en Iguala.
+Por haber obtenido el segundo lugar en el campeonato de clubes de baloncesto en Iguala en noviembre del 2021. 
 <hr>
 Deporte: Basquetbol <br>
 <br>

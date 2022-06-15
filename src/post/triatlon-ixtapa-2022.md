@@ -21,7 +21,7 @@ Felicitamos a nuestra alumna de CCH Lilith Tapia Solano por haber obtenido el pr
 
 <br>
 
-Julieta Rodríguez, la más pequeña de nuestras competidoras obtuvo el primer lugar en su primera participación en el Triatlon AsTri de Ixtapa 2022.  ¡Eres un orgullo para el Lizardi!
+Julieta Rodríguez, la más pequeña de nuestras competidoras obtuvo el primer lugar en su primera participación en el Triatlón AsTri de Ixtapa 2022.  ¡Eres un orgullo para el Lizardi!
 
 <br>
 

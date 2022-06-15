@@ -1,5 +1,5 @@
 ---
-tituloPaginas: 'Simun 2022'
+tituloPaginas: 'SIMUN 2022'
 descripcion: 'Modelo de Naciones Unidas del Sistema Incorporado de la UNAM. '
 imagenPrincipal: '/ima/uploads/simun2022/cover-simun.jpg'
 date: 2022-03-24
@@ -34,3 +34,7 @@ Delegación del Instituto Lizardi conformada por alumnos de secundaria y el Cole
 ![Simun 2022 Lizardi delegation](/ima/uploads/simun2022/maria-jose.jpg)
 ![Simun 2022 Lizardi delegation](/ima/uploads/simun2022/sofia-leyva.jpg)
 ![Simun 2022 Lizardi delegation](/ima/uploads/simun2022/valeria-floriana.jpg)
+
+<br>
+
+Para más información puedes visitar la página de [SIMUN en Facebook]( https://es-la.facebook.com/simununam/)
