@@ -19,3 +19,19 @@ Cuentópolis, a wonderful experience to make us enjoy reading.  This activity wa
 ![Cuentopolis](/ima/uploads/cuentopolis/cuentopolis-3.jpg)
 ![Cuentopolis](/ima/uploads/cuentopolis/cuentopolis-4.jpg)
 
+<br>
+
+![Cuentopolis](/ima/uploads/cuentopolis/cuentopolis-extra-1.jpg)
+![Cuentopolis](/ima/uploads/cuentopolis/cuentopolis-extra-2.jpg)
+![Cuentopolis](/ima/uploads/cuentopolis/cuentopolis-extra-4.jpg)
+![Cuentopolis](/ima/uploads/cuentopolis/cuentopolis-extra-5.jpg)
+
+<br>
+
+![Cuentopolis](/ima/uploads/cuentopolis/cuentopolis-extra-3.jpg)
+![Cuentopolis](/ima/uploads/cuentopolis/cuentopolis-extra-6.jpg)
+
+<br>
+
+![Cuentopolis](/ima/uploads/cuentopolis/cuentopolis-extra-7.jpg)
+
