@@ -31,8 +31,6 @@ Cuentópolis, una hermosa experiencia para acercarnos al maravilloso mundo de la
 
 ![Cuentopolis](/ima/uploads/cuentopolis/cuentopolis-extra-1.jpg)
 ![Cuentopolis](/ima/uploads/cuentopolis/cuentopolis-extra-2.jpg)
-![Cuentopolis](/ima/uploads/cuentopolis/cuentopolis-extra-4.jpg)
-![Cuentopolis](/ima/uploads/cuentopolis/cuentopolis-extra-5.jpg)
 
 <br>
 
