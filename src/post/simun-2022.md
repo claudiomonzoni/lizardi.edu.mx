@@ -37,5 +37,8 @@ Delegación del Instituto Lizardi conformada por alumnos de secundaria y el Cole
 
 <br>
 
-Para más información puedes visitar la página de 
+Para más información puedes visitar la página de: 
+ 
+ <br>
+ 
 [SIMUN en Facebook]( https://es-la.facebook.com/simununam/)
