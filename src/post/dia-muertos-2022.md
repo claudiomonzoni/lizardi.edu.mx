@@ -1,5 +1,5 @@
 ---
-tituloPaginas: 'Día de muertos y Halloween 2022'
+tituloPaginas: 'Día de muertos 2022'
 descripcion: 'Fotográfias de las celebraciones que año tras año realizamos en Intituto Lizardi.'
 imagenPrincipal: '/ima/uploads/dia-muertos-2022/festejos-dia-0.webp'
 date: 2022-10-11
