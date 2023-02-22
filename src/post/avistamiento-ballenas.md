@@ -15,8 +15,13 @@ El avistamiento de ballenas es además de un espectáculo visual y auditivo es u
 
 <br>
 
-![actividadesolución Mexicana Instituto Lizardi](/ima/uploads/actividades/ballenas-1.webp)
-![actividadesolución Mexicana Instituto Lizardi](/ima/uploads/actividades/ballenas-2.webp)
+![actividadesolución Mexicana Instituto Lizardi](/ima/uploads/actividades/ballenas.webp)
 ![actividadesolución Mexicana Instituto Lizardi](/ima/uploads/actividades/ballenas-3.webp)
+
+<br>
+
+![actividadesolución Mexicana Instituto Lizardi](/ima/uploads/actividades/avistamiento-ballenas-sec.webp)
+![actividadesolución Mexicana Instituto Lizardi](/ima/uploads/actividades/avistamiento-ballenas-sec-2.webp)
+
 
 
