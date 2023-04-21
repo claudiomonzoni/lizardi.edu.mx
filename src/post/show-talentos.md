@@ -1,11 +1,11 @@
 ---
-tituloPaginas: 'Valentine's Day'
-descripcion: 'St. Valentine's Day.  A spectacular talent show!!!'
+tituloPaginas: "Valentine's Day"
+descripcion: "A spectacular talent show!!!"
 imagenPrincipal: '/ima/uploads/actividades/talento.webp'
 date: 2023-02-14
 ---
 
-## Show de talentos
+## Talents show
 
 <br>
 

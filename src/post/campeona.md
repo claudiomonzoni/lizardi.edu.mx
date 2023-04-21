@@ -5,7 +5,7 @@ imagenPrincipal: '/ima/uploads/abril23/cloe-portada.webp'
 date: 2023-04-21
 ---
 
-## Felicidades Cloe por este importante logro.
+## Congratulations Chloe on this important achievement
 
 <br>
 
